@@ -27,6 +27,43 @@
   font-weight: var(--fontWeights-bold);
   transition: var(--transitions-default);
 }
+.button-fab {
+  padding: var(--space-7);
+  border: none;
+  border-radius: var(--rounded-rounded);
+  box-shadow: 2px 5px 10px var(--colors-errorShadow);
+}
+
+.button-fab:hover {
+}
+.button-link {
+  padding: 0 var(--space-10);
+  text-decoration: none;
+  font-size: var(--fontSizes-sm);
+  font-weight: var(--fontWeights-bold);
+  text-align: center;
+  transition: var(--transitions-default);
+}
+
+.link-primary {
+  color: var(--colors-primary);
+}
+.link-secondary {
+  color: var(--colors-secondary);
+}
+.link-error {
+  color: var(--colors-error);
+}
+.link-primary:hover {
+  color: var(--colors-primaryLight);
+}
+.link-secondary:hover {
+  color: var(--colors-secondaryLight);
+}
+.link-error:hover {
+  color: var(--colors-errorLight);
+}
+
 .primary-outline {
   background-color: transparent;
   color: var(--colors-primary);
