@@ -1,0 +1,405 @@
+:root {
+  --fonts-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  --fonts-mono: Menlo, Monaco, "Lucida Console", "Liberation Mono",
+    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace;
+  --fontSizes-tiny: 0.75rem;
+  --fontSizes-xs: 0.875rem;
+  --fontSizes-base: 1rem;
+  --fontSizes-sm: 1.25rem;
+  --fontSizes-md: 1.5rem;
+  --fontSizes-lg: 2.25rem;
+  --fontSizes-xl: 3rem;
+  --fontWeights-hairline: 100;
+  --fontWeights-thin: 200;
+  --fontWeights-light: 300;
+  --fontWeights-normal: 400;
+  --fontWeights-medium: 500;
+  --fontWeights-semibold: 600;
+  --fontWeights-bold: 700;
+  --fontWeights-extrabold: 800;
+  --fontWeights-black: 900;
+  --lineHeights-xs: 1;
+  --lineHeights-sm: 1.25;
+  --lineHeights-md: 1.5;
+  --lineHeights-lg: 1.625;
+  --lineHeights-xl: 1.75;
+  --letterSpacings-tighter: -0.05em;
+  --letterSpacings-tight: -0.025em;
+  --letterSpacings-normal: 0;
+  --letterSpacings-wide: 0.025em;
+  --letterSpacings-wider: 0.05em;
+  --letterSpacings-widest: 0.1em;
+  --space-0: 0rem;
+  --space-1: 0.125rem;
+  --space-2: 0.25rem;
+  --space-3: 0.375rem;
+  --space-4: 0.5rem;
+  --space-5: 0.625rem;
+  --space-6: 0.75rem;
+  --space-7: 0.875rem;
+  --space-8: 1rem;
+  --space-9: 1.25rem;
+  --space-10: 1.5rem;
+  --space-11: 1.75rem;
+  --space-12: 2rem;
+  --space-13: 2.25rem;
+  --space-14: 2.5rem;
+  --space-15: 2.75rem;
+  --space-16: 3rem;
+  --space-17: 3.5rem;
+  --space-18: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-28: 7rem;
+  --space-32: 8rem;
+  --space-36: 9rem;
+  --space-40: 10rem;
+  --space-44: 11rem;
+  --space-48: 12rem;
+  --space-52: 13rem;
+  --space-56: 14rem;
+  --space-60: 15rem;
+  --space-64: 16rem;
+  --space-72: 18rem;
+  --space-80: 20rem;
+  --space-96: 24rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.25rem;
+  --space-xl: 2.25rem;
+  --space-px: 1px;
+  --rounded-xs: 7px;
+  --rounded-sm: 9px;
+  --rounded-md: 12px;
+  --rounded-base: 14px;
+  --rounded-lg: 14px;
+  --rounded-xl: 18px;
+  --rounded-squared: 33%;
+  --rounded-rounded: 50%;
+  --rounded-pill: 9999px;
+  --zindex-1: 100;
+  --zindex-2: 200;
+  --zindex-3: 300;
+  --zindex-4: 400;
+  --zindex-5: 500;
+  --zindex-10: 1000;
+  --zindex-max: 9999;
+  --borderWeights-light: 1px;
+  --borderWeights-normal: 2px;
+  --borderWeights-bold: 3px;
+  --borderWeights-extrabold: 4px;
+  --borderWeights-black: 5px;
+  --transitions-default: all 250ms ease;
+  --breakpoints-xs: 650px;
+  --breakpoints-sm: 960px;
+  --breakpoints-md: 1280px;
+  --breakpoints-lg: 1400px;
+  --breakpoints-xl: 1920px;
+  --colors-white: #ffffff;
+  --colors-black: #000000;
+  --colors-blue100: #bfd8fc;
+  --colors-blue200: #98d5fd;
+  --colors-blue300: #64b8fb;
+  --colors-blue400: #3d9cf7;
+  --colors-blue500: #0070f3;
+  --colors-blue600: #0056d0;
+  --colors-blue700: #0040ae;
+  --colors-blue800: #002d8c;
+  --colors-blue900: #002074;
+  --colors-purple100: #dbc8f0;
+  --colors-purple200: #dda9f9;
+  --colors-purple300: #c17cef;
+  --colors-purple400: #a258df;
+  --colors-purple500: #7928ca;
+  --colors-purple600: #5e1dad;
+  --colors-purple700: #461491;
+  --colors-purple800: #310c75;
+  --colors-purple900: #220760;
+  --colors-green100: #c5f0d5;
+  --colors-green200: #a1f9ac;
+  --colors-green300: #6fee8d;
+  --colors-green400: #4ade7b;
+  --colors-green500: #17c964;
+  --colors-green600: #10ac63;
+  --colors-green700: #0b905f;
+  --colors-green800: #077457;
+  --colors-green900: #046050;
+  --colors-yellow100: #fce6c7;
+  --colors-yellow200: #fee7a6;
+  --colors-yellow300: #fcd57a;
+  --colors-yellow400: #f9c258;
+  --colors-yellow500: #f5a623;
+  --colors-yellow600: #d28519;
+  --colors-yellow700: #b06811;
+  --colors-yellow800: #8e4d0b;
+  --colors-yellow900: #753a06;
+  --colors-red100: #fbc4d5;
+  --colors-red200: #fda0a5;
+  --colors-red300: #fb7085;
+  --colors-red400: #f74c77;
+  --colors-red500: #f21361;
+  --colors-red600: #d00d65;
+  --colors-red700: #ae0963;
+  --colors-red800: #8c065c;
+  --colors-red900: #740357;
+  --colors-cyan100: #eefff4;
+  --colors-cyan200: #ddffed;
+  --colors-cyan300: #ccffe9;
+  --colors-cyan400: #bfffea;
+  --colors-cyan500: #aaffec;
+  --colors-cyan600: #7cdbcf;
+  --colors-cyan700: #55b7b4;
+  --colors-cyan800: #368d93;
+  --colors-cyan900: #206c7a;
+  --colors-pink100: #ffdbe7;
+  --colors-pink200: #ffb8d6;
+  --colors-pink300: #ff94cc;
+  --colors-pink400: #ff7acc;
+  --colors-pink500: #ff4ecd;
+  --colors-pink600: #db39bd;
+  --colors-pink700: #b727aa;
+  --colors-pink800: #921893;
+  --colors-pink900: #6e0e7a;
+  --colors-gray100: #f4f4f4;
+  --colors-gray200: #eaeaea;
+  --colors-gray300: #c1c1c1;
+  --colors-gray400: #999999;
+  --colors-gray500: #888888;
+  --colors-gray600: #666666;
+  --colors-gray700: #444444;
+  --colors-gray800: #333333;
+  --colors-gray900: #111111;
+  --colors-primaryLight: var(--colors-blue100);
+  --colors-primary: var(--colors-blue500);
+  --colors-primaryDark: var(--colors-blue600);
+  --colors-primaryShadow: var(--colors-blue100);
+  --colors-secondaryLight: var(--colors-purple100);
+  --colors-secondary: var(--colors-purple500);
+  --colors-secondaryDark: var(--colors-purple600);
+  --colors-secondaryShadow: var(--colors-purple100);
+  --colors-successLight: var(--colors-green100);
+  --colors-success: var(--colors-green500);
+  --colors-successDark: var(--colors-green600);
+  --colors-successShadow: var(--colors-green100);
+  --colors-warningLight: var(--colors-yellow100);
+  --colors-warning: var(--colors-yellow500);
+  --colors-warningDark: var(--colors-yellow600);
+  --colors-warningShadow: var(--colors-yellow100);
+  --colors-errorLight: var(--colors-red100);
+  --colors-error: var(--colors-red500);
+  --colors-errorDark: var(--colors-red600);
+  --colors-errorShadow: var(--colors-red100);
+  --colors-gradient: linear-gradient(
+    112deg,
+    var(--colors-cyan500) -63.59%,
+    var(--colors-pink500) -20.3%,
+    var(--colors-blue500) 70.46%
+  );
+  --colors-link: var(--colors-blue500);
+  --colors-accents1: var(--colors-gray100);
+  --colors-accents2: var(--colors-gray200);
+  --colors-accents3: var(--colors-gray300);
+  --colors-accents4: var(--colors-gray400);
+  --colors-accents5: var(--colors-gray500);
+  --colors-accents6: var(--colors-gray600);
+  --colors-accents7: var(--colors-gray700);
+  --colors-accents8: var(--colors-gray800);
+  --colors-accents9: var(--colors-gray900);
+  --colors-text: var(--colors-gray800);
+  --colors-background: var(--colors-white);
+  --colors-foreground: var(--colors-black);
+  --colors-codeLight: var(--colors-pink100);
+  --colors-code: var(--colors-pink600);
+  --colors-border: var(--colors-gray200);
+  --colors-selection: var(--colors-blue200);
+  --shadows-xs: -4px 0 4px rgb(0 0 0 / 5%);
+  --shadows-sm: 0 5px 20px -5px rgba(0, 0, 0, 0.1);
+  --shadows-md: 0 8px 30px rgba(0, 0, 0, 0.15);
+  --shadows-lg: 0 30px 60px rgba(0, 0, 0, 0.15);
+  --shadows-xl: 0 40px 80px rgba(0, 0, 0, 0.25);
+
+  --xs: var(--space-10);
+  --sm: var(--space-12);
+  --md: var(--space-14);
+  --lg: var(--space-16);
+  --xl: var(--space-18);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.colors-primaryLight {
+  background: var(--colors-blue100);
+}
+.colors-primary {
+  background: var(--colors-blue500);
+}
+.colors-primaryDark {
+  background: var(--colors-blue600);
+}
+.colors-primaryShadow {
+  background: var(--colors-blue100);
+}
+.colors-secondaryLight {
+  background: var(--colors-purple100);
+}
+.colors-secondary {
+  background: var(--colors-purple500);
+}
+.colors-secondaryDark {
+  background: var(--colors-purple600);
+}
+.colors-secondaryShadow {
+  background: var(--colors-purple100);
+}
+.colors-successLight {
+  background: var(--colors-green100);
+}
+.colors-success {
+  background: var(--colors-green500);
+}
+.colors-successDark {
+  background: var(--colors-green600);
+}
+.colors-successShadow {
+  background: var(--colors-green100);
+}
+.colors-warningLight {
+  background: var(--colors-yellow100);
+}
+.colors-warning {
+  background: var(--colors-yellow500);
+}
+.colors-warningDark {
+  background: var(--colors-yellow600);
+}
+.colors-warningShadow {
+  background: var(--colors-yellow100);
+}
+.colors-errorLight {
+  background: var(--colors-red100);
+}
+.colors-error {
+  background: var(--colors-red500);
+}
+.colors-errorDark {
+  background: var(--colors-red600);
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.--xs {
+  height: var(--space-10);
+  width: var(--space-10);
+}
+.--sm {
+  height: var(--space-12);
+  width: var(--space-12);
+}
+.--md {
+  height: var(--space-14);
+  width: var(--space-14);
+}
+.--lg {
+  height: var(--space-16);
+  width: var(--space-16);
+}
+.--xl {
+  height: var(--space-18);
+  width: var(--space-18);
+}
+.gap {
+  gap: var(--space-14);
+}
+.avatar {
+  display: flex;
+  position: relative;
+}
+.avatar-bg {
+  background: var(--colors-accents2);
+  position: relative;
+  inset: 0px;
+  transition: var(--transitions-default);
+}
+
+.avatar-bg:hover {
+  background: var(--colors-accents3);
+}
+
+.avatar-rounded {
+  border-radius: var(--rounded-rounded);
+}
+.avatar-squared {
+  border-radius: var(--rounded-squared);
+}
+.avatar-img {
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.avatar-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%) scale(0.65);
+  font-size: var(--fontSizes-md);
+  font-weight: var(--fontWeights-normal);
+  color: var(--colors-text);
+}
+.borderd {
+  padding: var(--space-1);
+  border: var(--space-1) solid var(--colors-purple400);
+}
+/* Badge */
+.badge {
+  position: absolute;
+  /* right: 0;
+  bottom: 0; */
+  /* height: var(--space-10);
+  width: var(--space-10); */
+  border: var(--space-1) solid var(--colors-background);
+  border-radius: var(--rounded-rounded);
+  /* background-color: var(--colors-pink900); */
+}
+
+.badge-text {
+  position: absolute;
+  padding: var(--space-1);
+  text-align: center;
+  font-size: var(--fontSizes-xs);
+  font-weight: var(--fontWeights-bold);
+  color: var(--colors-background);
+}
+
+.badge-top {
+  right: 0;
+  top: 2%;
+}
+
+.badge-bottom {
+  right: 0;
+  bottom: 2%;
+}
+
+.badge-sm {
+  height: var(--space-6);
+  width: var(--space-6);
+}
+.badge-md {
+  height: var(--space-8);
+  width: var(--space-8);
+}
+.badge-lg {
+  height: var(--space-10);
+  width: var(--space-10);
+}

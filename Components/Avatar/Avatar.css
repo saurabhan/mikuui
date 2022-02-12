@@ -1,0 +1,38 @@
+@import url(../../base.css);
+
+.avatar {
+  display: flex;
+  position: relative;
+}
+.avatar-bg {
+  background: var(--colors-accents2);
+  position: relative;
+  inset: 0px;
+  transition: var(--transitions-default);
+}
+
+.avatar-bg:hover {
+  background: var(--colors-accents3);
+}
+
+.avatar-rounded {
+  border-radius: var(--rounded-rounded);
+}
+.avatar-squared {
+  border-radius: var(--rounded-squared);
+}
+.avatar-img {
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.avatar-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%) scale(0.65);
+  font-size: var(--fontSizes-md);
+  font-weight: var(--fontWeights-normal);
+  color: var(--colors-text);
+}
