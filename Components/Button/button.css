@@ -1,0 +1,97 @@
+@import url(../../base.css);
+
+/* Button */
+.button-primary {
+  background-color: var(--colors-primaryDark);
+}
+.button-Secondary {
+  background-color: var(--colors-secondary);
+}
+.button-Success {
+  background-color: var(--colors-successDark);
+}
+.button-Warning {
+  background-color: var(--colors-warning);
+}
+.button-Error {
+  background-color: var(--colors-error);
+}
+.button {
+  padding: 0 var(--space-14);
+  height: var(--space-14);
+  width: auto;
+  border-radius: var(--rounded-lg);
+  outline: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: var(--fontWeights-bold);
+  transition: var(--transitions-default);
+}
+.primary-outline {
+  background-color: transparent;
+  color: var(--colors-primary);
+  border: 2px solid var(--colors-primary);
+}
+.secondary-outline {
+  background-color: transparent;
+  color: var(--colors-secondary);
+  border: 2px solid var(--colors-secondary);
+}
+.success-outline {
+  background-color: transparent;
+  color: var(--colors-success);
+  border: 2px solid var(--colors-success);
+}
+.warning-outline {
+  background-color: transparent;
+  color: var(--colors-warning);
+  border: 2px solid var(--colors-warning);
+}
+.error-outline {
+  background-color: transparent;
+  color: var(--colors-error);
+  border: 2px solid var(--colors-error);
+}
+
+.button-text {
+  color: var(--colors-background);
+  text-align: center;
+}
+
+.button-disabled {
+  background-color: var(--colors-gray200);
+  color: var(--colors-gray600);
+  cursor: not-allowed;
+}
+
+.button-primary:hover {
+  background-color: var(--colors-primary);
+}
+.button-Secondary:hover {
+  background-color: var(--colors-purple400);
+}
+.button-Success:hover {
+  background-color: var(--colors-green500);
+}
+.button-Warning:hover {
+  background-color: var(--colors-yellow400);
+}
+.button-Error:hover {
+  background-color: var(--colors-red400);
+}
+
+.primary-shadow {
+  box-shadow: 0 8px 30px var(--colors-primaryShadow);
+}
+.secondary-shadow {
+  box-shadow: 0 8px 30px var(--colors-secondaryShadow);
+}
+.success-shadow {
+  box-shadow: 0 8px 30px var(--colors-successShadow);
+}
+.warning-shadow {
+  box-shadow: 0 8px 30px var(--colors-warningShadow);
+}
+.error-shadow {
+  box-shadow: 0 8px 30px var(--colors-errorShadow);
+}
