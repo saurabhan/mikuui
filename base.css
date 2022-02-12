@@ -485,3 +485,45 @@
 .error-shadow {
   box-shadow: 0 8px 30px var(--colors-errorShadow);
 }
+
+/* Text Utilities */
+
+h1 {
+  font-size: var(--fontSizes-xl);
+}
+h2 {
+  font-size: var(--fontSizes-lg);
+}
+h3 {
+  font-size: var(--fontSizes-md);
+}
+h4 {
+  font-size: var(--fontSizes-sm);
+}
+h5 {
+  font-size: var(--fontSizes-xs);
+}
+h6 {
+  font-size: var(--fontSizes-tiny);
+}
+
+p {
+  font-size: var(--fontSizes-base);
+}
+
+.bold {
+  font-weight: var(--fontWeights-bold);
+}
+
+.fs-sm {
+  font-size: var(--fontSizes-tiny);
+}
+.fs-md {
+  font-size: var(--fontSizes-xs);
+}
+.fs-lg {
+  font-size: var(--fontSizes-md);
+}
+.fs-xl {
+  font-size: var(--fontSizes-lg);
+}
