@@ -1,0 +1,17 @@
+@import url(../../base.css);
+
+/* rating */
+
+.rating-star{
+    transition: var(--transitions-default);
+}
+.checked{
+    fill: orange;
+}
+
+.rating-star:active{
+    fill: orange;
+}
+.rating-star:hover{
+    fill: orange;
+}

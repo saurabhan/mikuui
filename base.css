@@ -313,6 +313,7 @@
   margin: 0 auto;
 }
 .center {
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -681,7 +682,7 @@ p {
   height: var(--space-20);
 }
 .card-sq {
-  min-width: var(--space-40);
+  width: var(--space-40);
   height: var(--space-40);
 }
 .card-long {
@@ -957,4 +958,20 @@ p {
   height: var(--space-32);
   background-image: url(../../Assets/bg.jpg);
   background-color: var(--colors-accents1);
+}
+
+/* rating */
+
+.rating-star {
+  transition: var(--transitions-default);
+}
+.checked {
+  fill: orange;
+}
+
+.rating-star:active {
+  fill: orange;
+}
+.rating-star:hover {
+  fill: orange;
 }

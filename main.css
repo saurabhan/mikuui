@@ -1,44 +1,108 @@
+@import url(../../base.css);
+
 *{
     padding: 0;
     margin: 0;
 }
 
-.navbar{
-    background-color: rgba(128, 128, 128, 0.2);
-    padding: 20px;
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+.m5{
+    
+    margin-bottom: 5rem;
 }
 
+.z1{
+    z-index: 10;
+}
 
-.nav__items{
+.z2{
+    z-index: 20;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 auto;
+}
+
+.hero-text {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.gradient-box {
+  position: relative;
+}
+
+.gradient-text {
+  position: relative;
+}
+
+.gradient-shadow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(112deg,
+  var(--colors-cyan500) -63.59%,
+  var(--colors-pink500) -20.3%,
+  var(--colors-blue500) 70.46%);
+  opacity: 0.3;
+  filter: blur(16px);
+}
+.gradient-button-shadow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(112deg,
+  var(--colors-cyan700) -63.59%,
+  var(--colors-pink800) 10.3%,
+  var(--colors-blue500) 70.46%);
+  opacity: 1;
+  filter: blur(10px);
+  transition: var(--transitions-default);
+}
+
+.button-hero{
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo{
-
-}
-
-.list__items{
-    display: inline;
-    list-style: none;
-    padding-left: 40px;
-}
-
-.hero{
-    /* font-size: 5rem; */
-    width: 100vw;
-    height: 100vh;
-    padding: 40px;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 1.5rem;
+    color: white;
+    background-color: var(--colors-gray900);
+    transition: var(--transitions-default);
 }
 
-.hero__text{
-    font-size: 5rem;
-    text-align: center;
+.button-hero:hover{
+    transform: scale(1.05);
+}
+.button-hero:active{
+    transform: scale(0.99);
 }
 
 
+.card-hero{
+    position: relative;
+    width: 60vw;
+    height: auto;
+    padding: var(--space-14);
+    border-radius: var(--rounded-xl);
+    background-color: var(--colors-gray200);
+}
 
+.command-icon{
+    width: 2.25rem;
+}
