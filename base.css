@@ -1001,7 +1001,7 @@ input {
 }
 
 .tab {
-  width: 45vw;
+  width: 100%;
   overflow: hidden;
   background-color: var(--colors-gray900);
 }
@@ -1024,6 +1024,9 @@ input {
 }
 
 .tab-content {
+  display: flex;
+  flex: wrap;
+  max-width: 50rem;
   max-height: 0;
   padding: 0 1em;
   color: var(--colors-white);

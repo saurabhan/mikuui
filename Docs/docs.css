@@ -2,16 +2,13 @@
 @import url(../main.css);
 @import url(../colors.css);
 
-body {
-}
-
 .container {
   display: flex;
   flex-direction: row;
   position: relative;
   /* background-color: var(--colors-gray100); */
   margin: var(--space-28) auto;
-  width: 65vw;
+  width: 100%;
 }
 
 .docs-container {
@@ -28,7 +25,7 @@ body {
   top: 6rem;
   padding: var(--space-8);
   height: 100%;
-  width: var(--space-80);
+  width: 10vw;
   /* background-color: var(--colors-gray200); */
   transition: var(--transitions-default);
 }

@@ -124,7 +124,7 @@ p {
   position: relative;
   /* background-color: var(--colors-gray100); */
   margin: var(--space-28) auto;
-  width: 65vw;
+  width: 80vw;
 }
 
 .docs-container {
