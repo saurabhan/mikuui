@@ -19,7 +19,7 @@ body {
   flex-wrap: wrap;
   padding: 0 var(--space-10);
   /* background-color: lavender; */
-  width: 100%;
+  width: min(100%, 70vw);
 }
 .sidebar {
   display: flex;

@@ -351,7 +351,7 @@
   width: var(--space-18);
 }
 
-.spacer-10{
+.spacer-10 {
   margin: var(--space-20);
 }
 .gap {
@@ -407,10 +407,10 @@
 }
 .borderd {
   padding: var(--space-1);
-  border: var(--space-1) solid ;
+  border: var(--space-1) solid;
 }
 
-.avatar-icon{
+.avatar-icon {
   color: var(--colors-gray700);
 }
 /* Badge */
@@ -641,7 +641,7 @@ p {
 .alert {
   display: flex;
   height: var(--space-16);
-  width: 70vw;
+  width: min(70vw, 100%);
   border-radius: var(--rounded-lg);
   align-items: center;
   justify-content: left;
@@ -986,7 +986,6 @@ p {
   fill: orange;
 }
 
-
 /* Accordian */
 
 input {
@@ -1002,8 +1001,9 @@ input {
 }
 
 .tab {
-  width: 100%;
+  width: 45vw;
   overflow: hidden;
+  background-color: var(--colors-gray900);
 }
 
 .tab-label {
@@ -1011,13 +1011,8 @@ input {
   display: flex;
   justify-content: space-between;
   padding: var(--space-8);
-  background-color: var(--colors-gray900);
   font-weight: bold;
   cursor: pointer;
-}
-
-.tab-label:hover {
-  background: var(--colors-gray800);
 }
 
 .tab-label::after {
@@ -1031,8 +1026,8 @@ input {
 .tab-content {
   max-height: 0;
   padding: 0 1em;
-  color: var(--colors-gray900);
-  background: white;
+  color: var(--colors-white);
+  background: var(--colors-gray800);
   transition: all 0.35s;
 }
 
@@ -1045,11 +1040,11 @@ input {
   cursor: pointer;
 }
 .tab:hover {
-  background: darken(var(--colors-gray900), 10%);
+  background: var(--colors-gray800);
 }
 
 input:checked + .tab-label {
-  background: #1a252f;
+  background: var(--colors-gray900);
 }
 input:checked + .tab-label::after {
   transform: rotate(90deg);
@@ -1058,4 +1053,3 @@ input:checked ~ .tab-content {
   max-height: 100vh;
   padding: 1em;
 }
-
