@@ -350,6 +350,10 @@
   height: var(--space-18);
   width: var(--space-18);
 }
+
+.spacer-10{
+  margin: var(--space-20);
+}
 .gap {
   gap: var(--space-14);
   grid-gap: var(--space-14);
@@ -981,3 +985,77 @@ p {
 .rating-star:hover {
   fill: orange;
 }
+
+
+/* Accordian */
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.tabs {
+  border-radius: var(--rounded-xl);
+  overflow: hidden;
+  box-shadow: var(--shadows-md);
+}
+
+.tab {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tab-label {
+  color: var(--colors-gray200);
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-8);
+  background-color: var(--colors-gray900);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tab-label:hover {
+  background: var(--colors-gray800);
+}
+
+.tab-label::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: var(--colors-gray900);
+  background: white;
+  transition: all 0.35s;
+}
+
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: var(--colors-gray900);
+  cursor: pointer;
+}
+.tab:hover {
+  background: darken(var(--colors-gray900), 10%);
+}
+
+input:checked + .tab-label {
+  background: #1a252f;
+}
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
