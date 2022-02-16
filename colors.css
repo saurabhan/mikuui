@@ -1,0 +1,247 @@
+.colors-blue100 {
+  background: #bfd8fc;
+}
+.colors-blue200 {
+  background: #98d5fd;
+}
+.colors-blue300 {
+  background: #64b8fb;
+}
+.colors-blue400 {
+  background: #3d9cf7;
+}
+.colors-blue500 {
+  background: #0070f3;
+}
+.colors-blue600 {
+  background: #0056d0;
+}
+.colors-blue700 {
+  background: #0040ae;
+}
+.colors-blue800 {
+  background: #002d8c;
+}
+.colors-blue900 {
+  background: #002074;
+}
+.colors-purple100 {
+  background: #dbc8f0;
+}
+.colors-purple200 {
+  background: #dda9f9;
+}
+.colors-purple300 {
+  background: #c17cef;
+}
+.colors-purple400 {
+  background: #a258df;
+}
+.colors-purple500 {
+  background: #7928ca;
+}
+.colors-purple600 {
+  background: #5e1dad;
+}
+.colors-purple700 {
+  background: #461491;
+}
+.colors-purple800 {
+  background: #310c75;
+}
+.colors-purple900 {
+  background: #220760;
+}
+.colors-green100 {
+  background: #c5f0d5;
+}
+.colors-green200 {
+  background: #a1f9ac;
+}
+.colors-green300 {
+  background: #6fee8d;
+}
+.colors-green400 {
+  background: #4ade7b;
+}
+.colors-green500 {
+  background: #17c964;
+}
+.colors-green600 {
+  background: #10ac63;
+}
+.colors-green700 {
+  background: #0b905f;
+}
+.colors-green800 {
+  background: #077457;
+}
+.colors-green900 {
+  background: #046050;
+}
+.colors-yellow100 {
+  background: #fce6c7;
+}
+.colors-yellow200 {
+  background: #fee7a6;
+}
+.colors-yellow300 {
+  background: #fcd57a;
+}
+.colors-yellow400 {
+  background: #f9c258;
+}
+.colors-yellow500 {
+  background: #f5a623;
+}
+.colors-yellow600 {
+  background: #d28519;
+}
+.colors-yellow700 {
+  background: #b06811;
+}
+.colors-yellow800 {
+  background: #8e4d0b;
+}
+.colors-yellow900 {
+  background: #753a06;
+}
+.colors-red100 {
+  background: #fbc4d5;
+}
+.colors-red200 {
+  background: #fda0a5;
+}
+.colors-red300 {
+  background: #fb7085;
+}
+.colors-red400 {
+  background: #f74c77;
+}
+.colors-red500 {
+  background: #f21361;
+}
+.colors-red600 {
+  background: #d00d65;
+}
+.colors-red700 {
+  background: #ae0963;
+}
+.colors-red800 {
+  background: #8c065c;
+}
+.colors-red900 {
+  background: #740357;
+}
+.colors-cyan100 {
+  background: #eefff4;
+}
+.colors-cyan200 {
+  background: #ddffed;
+}
+.colors-cyan300 {
+  background: #ccffe9;
+}
+.colors-cyan400 {
+  background: #bfffea;
+}
+.colors-cyan500 {
+  background: #aaffec;
+}
+.colors-cyan600 {
+  background: #7cdbcf;
+}
+.colors-cyan700 {
+  background: #55b7b4;
+}
+.colors-cyan800 {
+  background: #368d93;
+}
+.colors-cyan900 {
+  background: #206c7a;
+}
+.colors-pink100 {
+  background: #ffdbe7;
+}
+.colors-pink200 {
+  background: #ffb8d6;
+}
+.colors-pink300 {
+  background: #ff94cc;
+}
+.colors-pink400 {
+  background: #ff7acc;
+}
+.colors-pink500 {
+  background: #ff4ecd;
+}
+.colors-pink600 {
+  background: #db39bd;
+}
+.colors-pink700 {
+  background: #b727aa;
+}
+.colors-pink800 {
+  background: #921893;
+}
+.colors-pink900 {
+  background: #6e0e7a;
+}
+.colors-gray100 {
+  background: #f4f4f4;
+}
+.colors-gray200 {
+  background: #eaeaea;
+}
+.colors-gray300 {
+  background: #c1c1c1;
+}
+.colors-gray400 {
+  background: #999999;
+}
+.colors-gray500 {
+  background: #888888;
+}
+.colors-gray600 {
+  background: #666666;
+}
+.colors-gray700 {
+  background: #444444;
+}
+.colors-gray800 {
+  background: #333333;
+}
+.colors-gray900 {
+  background: #111111;
+}
+.colors-textDark {
+  color: #111111;
+}
+.colors-textLight {
+  color: #eaeaea;
+}
+.colors-white {
+  background: white;
+}
+
+.bordercolor-primaryLight{ border-color:  var(--colors-blue100);}
+.bordercolor-primary{ border-color:  var(--colors-blue500);}
+.bordercolor-primaryDark{ border-color:  var(--colors-blue600);}
+.bordercolor-secondaryLight{ border-color:  var(--colors-purple100);}
+.bordercolor-secondary{ border-color:  var(--colors-purple500);}
+.bordercolor-secondaryDark{ border-color:  var(--colors-purple600);}
+.bordercolor-successLight{ border-color:  var(--colors-green100);}
+.bordercolor-success{ border-color:  var(--colors-green500);}
+.bordercolor-successDark{ border-color:  var(--colors-green600);}
+.bordercolor-warningLight{ border-color:  var(--colors-yellow100);}
+.bordercolor-warning{ border-color:  var(--colors-yellow500);}
+.bordercolor-warningDark{ border-color:  var(--colors-yellow600);}
+.bordercolor-errorLight{ border-color:  var(--colors-red100);}
+.bordercolor-error{ border-color:  var(--colors-red500);}
+.bordercolor-errorDark{ border-color:  var(--colors-red600);}
+.bordercolor-gradient{ border-color:  linear-gradient(
+    112deg,
+    var(--colors-cyan500) -63.59%,
+    var(--colors-pink500) -20.3%,
+    var(--colors-blue500) 70.46%
+  );}

@@ -1,0 +1,54 @@
+@import url(../base.css);
+@import url(../main.css);
+@import url(../colors.css);
+
+.container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  /* background-color: var(--colors-gray100); */
+  margin: var(--space-28) auto;
+  width: 100%;
+}
+
+.docs-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 var(--space-10);
+  /* background-color: lavender; */
+  width: min(100%, 70vw);
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 6rem;
+  padding: var(--space-8);
+  height: 100%;
+  width: 10vw;
+  /* background-color: var(--colors-gray200); */
+  transition: var(--transitions-default);
+}
+
+.sidebar-hr {
+  margin: var(--space-10) 0;
+}
+
+.docs-list {
+  padding: var(--space-4);
+  margin-left: var(--space-12);
+}
+.docs-list > li {
+  padding: var(--space-4);
+}
+
+.docs-list > li > a {
+  text-decoration: none;
+  color: var(--colors-text);
+
+  transition: var(--transitions-default);
+}
+.docs-list > li > a:hover {
+  text-decoration: none;
+  color: var(--colors-gray400);
+}
