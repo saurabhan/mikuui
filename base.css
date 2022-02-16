@@ -366,6 +366,8 @@
 .avatar {
   display: flex;
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 .avatar-bg {
   background: var(--colors-accents2);
@@ -401,7 +403,11 @@
 }
 .borderd {
   padding: var(--space-1);
-  border: var(--space-1) solid var(--colors-purple400);
+  border: var(--space-1) solid ;
+}
+
+.avatar-icon{
+  color: var(--colors-gray700);
 }
 /* Badge */
 .badge {

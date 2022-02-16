@@ -223,3 +223,25 @@
 .colors-white {
   background: white;
 }
+
+.bordercolor-primaryLight{ border-color:  var(--colors-blue100);}
+.bordercolor-primary{ border-color:  var(--colors-blue500);}
+.bordercolor-primaryDark{ border-color:  var(--colors-blue600);}
+.bordercolor-secondaryLight{ border-color:  var(--colors-purple100);}
+.bordercolor-secondary{ border-color:  var(--colors-purple500);}
+.bordercolor-secondaryDark{ border-color:  var(--colors-purple600);}
+.bordercolor-successLight{ border-color:  var(--colors-green100);}
+.bordercolor-success{ border-color:  var(--colors-green500);}
+.bordercolor-successDark{ border-color:  var(--colors-green600);}
+.bordercolor-warningLight{ border-color:  var(--colors-yellow100);}
+.bordercolor-warning{ border-color:  var(--colors-yellow500);}
+.bordercolor-warningDark{ border-color:  var(--colors-yellow600);}
+.bordercolor-errorLight{ border-color:  var(--colors-red100);}
+.bordercolor-error{ border-color:  var(--colors-red500);}
+.bordercolor-errorDark{ border-color:  var(--colors-red600);}
+.bordercolor-gradient{ border-color:  linear-gradient(
+    112deg,
+    var(--colors-cyan500) -63.59%,
+    var(--colors-pink500) -20.3%,
+    var(--colors-blue500) 70.46%
+  );}
