@@ -168,6 +168,7 @@ p {
   text-decoration: none;
   color: var(--colors-gray400);
 }
+<<<<<<< HEAD
 
 .color-container{
   display: flex;
@@ -179,3 +180,5 @@ p {
   width: 70vw;
 }
 
+=======
+>>>>>>> df4d0e566fc9064d4d9b0ac60909f92f8184fd31

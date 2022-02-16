@@ -677,7 +677,10 @@ p {
   position: relative;
   padding: 0 var(--space-10);
   border-radius: var(--rounded-lg);
+<<<<<<< HEAD
   box-shadow: var(--shadows-sm);
+=======
+>>>>>>> df4d0e566fc9064d4d9b0ac60909f92f8184fd31
   transition: var(--transitions-default);
 }
 .card-container-horizontal {
@@ -699,7 +702,10 @@ p {
 .card-long {
   width: var(--space-56);
   min-height: var(--space-80);
+<<<<<<< HEAD
   padding: var(--space-10);
+=======
+>>>>>>> df4d0e566fc9064d4d9b0ac60909f92f8184fd31
 }
 .card-rec {
   width: var(--space-80);
@@ -721,7 +727,11 @@ p {
   position: relative;
   overflow: hidden;
   object-fit: contain;
+<<<<<<< HEAD
   width: var(--space-44);
+=======
+  width: var(--space-56);
+>>>>>>> df4d0e566fc9064d4d9b0ac60909f92f8184fd31
   border-radius: var(--rounded-xl);
 }
 .card-img-rec {
@@ -736,7 +746,11 @@ p {
 }
 .card-badge {
   position: absolute;
+<<<<<<< HEAD
   top: -1rem;
+=======
+  top: -10%;
+>>>>>>> df4d0e566fc9064d4d9b0ac60909f92f8184fd31
   right: 0;
   padding: var(--space-6);
   border-radius: var(--rounded-xl);
@@ -957,7 +971,10 @@ p {
 }
 
 .navlinks {
+<<<<<<< HEAD
   text-decoration: none;
+=======
+>>>>>>> df4d0e566fc9064d4d9b0ac60909f92f8184fd31
   cursor: pointer;
   color: var(--colors-text);
   transition: var(--transitions-default);
