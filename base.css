@@ -677,6 +677,7 @@ p {
   position: relative;
   padding: 0 var(--space-10);
   border-radius: var(--rounded-lg);
+  box-shadow: var(--shadows-sm);
   transition: var(--transitions-default);
 }
 .card-container-horizontal {
@@ -698,6 +699,7 @@ p {
 .card-long {
   width: var(--space-56);
   min-height: var(--space-80);
+  padding: var(--space-10);
 }
 .card-rec {
   width: var(--space-80);
@@ -719,7 +721,7 @@ p {
   position: relative;
   overflow: hidden;
   object-fit: contain;
-  width: var(--space-56);
+  width: var(--space-44);
   border-radius: var(--rounded-xl);
 }
 .card-img-rec {
@@ -734,7 +736,7 @@ p {
 }
 .card-badge {
   position: absolute;
-  top: -10%;
+  top: -1rem;
   right: 0;
   padding: var(--space-6);
   border-radius: var(--rounded-xl);
@@ -955,6 +957,7 @@ p {
 }
 
 .navlinks {
+  text-decoration: none;
   cursor: pointer;
   color: var(--colors-text);
   transition: var(--transitions-default);
