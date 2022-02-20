@@ -58,7 +58,6 @@
   flex-direction: row;
   position: relative;
   gap: 1rem;
-  /* background-color: var(--colors-gray100); */
   margin: 0 auto;
   width: 60vw;
 }
