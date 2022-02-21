@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/saurabhan/mikuui/tree/main/Assets/miku.png)
+![Logo](https://raw.githubusercontent.com/saurabhan/mikuui/main/Assets/miku.png)
 
 
 
